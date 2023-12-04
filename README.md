@@ -47,6 +47,9 @@ Traefik is a leading reverse proxy and load balancer that integrates with your e
 
 To deploy the Reddog services along with the necessary Azure Resources, clone this repo and run the following [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) commands. You will need an Azure subscription where you have permission to create a Resource Group (e.g. Contributor). Alternatively you may execute the [deploy.sh](./deploy.sh) or [deploy.ps1](./deploy.ps1) script.
 
+> [!IMPORTANT]  
+> This deployment will cost around $40 per day in its default configuration. Scaling up resources will increase costs, so please scale down and/or delete the deployment when you are finished.
+
 > Please note that Container Apps is only available in [a subset of Azure regions](https://azure.microsoft.com/en-ca/explore/global-infrastructure/products-by-region/?products=container-apps). 
 
 
