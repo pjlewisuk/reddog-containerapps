@@ -50,6 +50,7 @@ To deploy the Reddog services along with the necessary Azure Resources, clone th
 > [!IMPORTANT]  
 > This deployment will cost around $40 per day in its default configuration. Scaling up resources will increase costs, so please scale down and/or delete the deployment when you are finished.
 
+> [!TIP]
 > Please note that Container Apps is only available in [a subset of Azure regions](https://azure.microsoft.com/en-ca/explore/global-infrastructure/products-by-region/?products=container-apps). 
 
 
